@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.soc_menu{
+	margin: 100px;
+	text-align: center;
+}
+
+.soc_menu li{
+	display: inline-block;
+}
+.soc_menu li a{
+	width: 87.5px;
+	height: 97px;
+	display: block;
+	transition: all 1s ease;
+	background: url("images/spr.png");
+}
+.soc_menu li+li a{
+	background-position: -110px 0;
+}
+.soc_menu li+li+li a{
+	background-position: -210px 0;
+}
+.soc_menu li+li+li+li a{
+	background-position: -310px 0;
+}
+.soc_menu li+li+li+li+li a{
+	background-position: -410px 0;
+}
+.soc_menu li+li+li+li+li+li a{
+	background-position: -510px 0;
+}
+.soc_menu li+li+li+li+li+li+li a{
+	background-position: -610px 0;
+}
+/*Вторая строка*/
+.soc_menu li:hover a{
+	background-position: 0 -98.5px;
+}
+.soc_menu li+li:hover a{
+	background-position: -110px -98.5px;
+}
+.soc_menu li+li+li:hover a{
+	background-position: -210px -98.5px;
+}
+.soc_menu li+li+li+li:hover a{
+	background-position: -310px -98.5px;
+}
+.soc_menu li+li+li+li+li:hover a{
+	background-position: -410px -98.5px;
+}
+.soc_menu li+li+li+li+li+li:hover a{
+	background-position: -510px -98.5px;
+}
+.soc_menu li+li+li+li+li+li+li:hover a{
+	background-position: -610px -98.5px;
+}
+
+/*text+sprite*/
+.soc_menuu{
+	margin: 100px;
+	text-align: center;
+}
+.soc_menuu li{
+	display: inline-block;
+}
+.soc_menuu li a:before{
+	background: url("images/spr.png");
+	content: "";
+	width: 87.5px;
+	height: 97px;
+	position: absolute;
+	transition: all 1s linear;
+	top: 0;
+	left: 0;
+}
+.soc_menuu li a{
+	padding:42px 10px 39px 100px;
+	position: relative;
+	color: black;
+	text-decoration: none;
+}
+.soc_menuu li+li a:before{
+	background-position: -110px 0;
+}
+.soc_menuu li+li+li a:before{
+	background-position: -210px 0;
+}
+.soc_menuu li+li+li+li a:before{
+	background-position: -310px 0;
+}
+.soc_menuu li+li+li+li+li a:before{
+	background-position: -410px 0;
+}
+.soc_menuu li+li+li+li+li+li a:before{
+	background-position: -510px 0;
+}
+.soc_menuu li+li+li+li+li+li+li a:before{
+	background-position: -610px 0;
+}
+.soc_menuu li:hover a:before{
+	background-position: 0 -98.5px;
+}
+.soc_menuu li+li:hover a:before{
+	background-position: -110px -98.5px;
+}
+.soc_menuu li+li+li:hover a:before{
+	background-position: -210px -98.5px;
+}
+.soc_menuu li+li+li+li:hover a:before{
+	background-position: -310px -98.5px;
+}
+.soc_menuu li+li+li+li+li:hover a:before{
+	background-position: -410px -98.5px;
+}
+.soc_menuu li+li+li+li+li+li:hover a:before{
+	background-position: -510px -98.5px;
+}
+.soc_menuu li+li+li+li+li+li+li:hover a:before{
+	background-position: -610px -98.5px;
+}
